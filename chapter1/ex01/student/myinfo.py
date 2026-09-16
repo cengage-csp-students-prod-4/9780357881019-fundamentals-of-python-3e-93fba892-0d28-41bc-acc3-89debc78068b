@@ -1,3 +1,3 @@
-'Kal-El Combs
-'2072 Macintosh Ln, Ohio
-'465-0737
+print("Kal-El Combs")
+print("2072 Macintosh Ln, Ohio")
+print("465-0737")
