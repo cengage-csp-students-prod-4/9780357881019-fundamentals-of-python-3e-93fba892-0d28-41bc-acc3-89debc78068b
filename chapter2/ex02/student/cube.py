@@ -27,6 +27,6 @@ Example:
     Input:  edge = 4
     Output: 96   (since 4*4 = 16, and 16*6 = 96)
 """
-Length= int(input("enter cube's edge: "))
-Surface_Area= (Length*Length)*6
-print(""+str(Surface_Area)+"")
+Input= int(input("enter cube's edge: "))
+Output= (Input*Input)*6
+print(""+str(Output)+"")
