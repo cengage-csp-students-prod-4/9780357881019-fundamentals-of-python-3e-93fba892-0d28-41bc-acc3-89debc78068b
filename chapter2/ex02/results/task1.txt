@@ -1,0 +1,27 @@
+
+Status: FAILED!
+Check: 1
+Test: Outputs '294 square units' when input is 7
+Reason: Unable to find '['294 square units']' in the program's output.
+enter cube's edge: 294
+.
+Error : AssertionError - 
+Timestamp: 2026-09-18 15:49:30.012398
+
+Status: FAILED!
+Check: 2
+Test: Outputs '54 square units' when input is 3
+Reason: Unable to find '['54 square units']' in the program's output.
+enter cube's edge: 54
+.
+Error : AssertionError - 
+Timestamp: 2026-09-18 15:49:30.027851
+
+Status: FAILED!
+Check: 3
+Test: Outputs '0 square units' when input is 0
+Reason: Unable to find '['0 square units']' in the program's output.
+enter cube's edge: 0
+.
+Error : AssertionError - Unable to find 0 square units in the program's output.
+Timestamp: 2026-09-18 15:49:30.043181
