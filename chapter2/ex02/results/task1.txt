@@ -1,27 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Outputs '294 square units' when input is 7
-Reason: Unable to find '['294 square units']' in the program's output.
-enter cube's edge: 294
-.
-Error : AssertionError - 
-Timestamp: 2026-09-18 15:51:00.095409
+Reason: Output included '294 square units'None
+Timestamp: 2026-09-18 15:52:45.568194
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Outputs '54 square units' when input is 3
-Reason: Unable to find '['54 square units']' in the program's output.
-enter cube's edge: 54
-.
-Error : AssertionError - 
-Timestamp: 2026-09-18 15:51:00.111176
+Reason: Output included '54 square units'None
+Timestamp: 2026-09-18 15:52:45.584063
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Outputs '0 square units' when input is 0
-Reason: Unable to find '['0 square units']' in the program's output.
-enter cube's edge: 0
-.
-Error : AssertionError - Unable to find 0 square units in the program's output.
-Timestamp: 2026-09-18 15:51:00.126603
+Reason: Output included '0 square units'None
+Timestamp: 2026-09-18 15:52:45.599567

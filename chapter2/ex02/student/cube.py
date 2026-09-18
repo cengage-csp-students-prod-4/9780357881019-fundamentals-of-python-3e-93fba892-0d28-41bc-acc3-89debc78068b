@@ -29,4 +29,4 @@ Example:
 """
 Input= int(input("enter cube's edge: "))
 Output= (Input*Input)*6
-print(""+str(Output)+"")
+print("The surface area is "+str(Output)+" square units")
