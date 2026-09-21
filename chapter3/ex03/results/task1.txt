@@ -1,0 +1,72 @@
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '='
+
+Timestamp: 2026-09-21 16:12:06.519286
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '='
+
+Timestamp: 2026-09-21 16:12:06.519378
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.573544
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.573624
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.637920
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.638021
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.703746
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
+    userNumberANS = int(input("Enter yout number: "))
+ValueError: invalid literal for int() with base 10: '<'
+
+Timestamp: 2026-09-21 16:12:06.703824
