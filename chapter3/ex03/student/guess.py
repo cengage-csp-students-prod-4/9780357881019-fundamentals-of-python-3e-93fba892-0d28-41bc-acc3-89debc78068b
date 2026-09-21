@@ -4,6 +4,7 @@ smaller = int(input("Enter the smaller number: "))
 larger = int(input("Enter the larger number: "))
 userNumberANS = int(input("Enter yout number: "))
 cheat = False
+win = False
 ##if userNumber < smaller or userNumber > larger:
 ##    print("you cheated")
 count = 0
@@ -11,7 +12,6 @@ guess = random.randint(smaller, larger)
 print(guess)
 while count <= 10:
     count += 1
-    win = False
     userNumber = input("Enter <, >, or = ")
     if userNumber == "<":
         larger = guess
