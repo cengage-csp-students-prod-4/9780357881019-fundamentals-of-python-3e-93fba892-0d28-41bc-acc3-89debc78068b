@@ -39,6 +39,6 @@ while count <= 10:
     ##    break
 if win != True:
     if cheat == True:
-        print("I'm out of guesses, and you!")
+        print("I'm out of guesses, and you cheated!")
     else:
         print("I'm out of guesses, you win!")
