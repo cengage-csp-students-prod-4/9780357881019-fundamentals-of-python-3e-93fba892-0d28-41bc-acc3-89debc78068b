@@ -6,7 +6,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '='
 
-Timestamp: 2026-09-22 16:50:42.350200
+Timestamp: 2026-09-22 23:55:05.595649
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -15,7 +15,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '='
 
-Timestamp: 2026-09-22 16:50:42.350316
+Timestamp: 2026-09-22 23:55:05.595751
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -24,7 +24,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.402224
+Timestamp: 2026-09-22 23:55:05.644844
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -33,7 +33,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.402329
+Timestamp: 2026-09-22 23:55:05.644940
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -42,7 +42,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.456708
+Timestamp: 2026-09-22 23:55:05.699924
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -51,7 +51,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.456807
+Timestamp: 2026-09-22 23:55:05.700019
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -60,7 +60,7 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.508577
+Timestamp: 2026-09-22 23:55:05.753268
 
 Status: FAILED!
 Reason: Unable to run guess.py
@@ -69,4 +69,4 @@ Error: Traceback (most recent call last):
     userNumberANS = int(input("Enter yout number: "))
 ValueError: invalid literal for int() with base 10: '<'
 
-Timestamp: 2026-09-22 16:50:42.508675
+Timestamp: 2026-09-22 23:55:05.753387
