@@ -35,10 +35,10 @@ while count <= 10:
         cheat = True
     elif userNumberANS > larger:
         cheat = True
-    if cheat == True:
-        break
+    ##if cheat == True:
+    ##    break
 if win != True:
     if cheat == True:
-        print("I'm out of guesses, and you cheated!")
+        print("I'm out of guesses, and you!")
     else:
         print("I'm out of guesses, you win!")
