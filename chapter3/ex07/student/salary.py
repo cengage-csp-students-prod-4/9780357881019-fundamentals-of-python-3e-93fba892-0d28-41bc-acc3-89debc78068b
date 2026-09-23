@@ -5,4 +5,3 @@ print("\nYear   Salary\n----------------")
 for i in range(1,z+1):
     print(format(i, "<7d") + format(x, "6.2f"))
     x = x * (1+y/100)
-    
