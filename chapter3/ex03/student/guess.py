@@ -2,9 +2,10 @@ import random
 
 smaller = int(input("Enter the smaller number: "))
 larger = int(input("Enter the larger number: "))
-input("Enter your number: ")  # read to stay in sync with the checker, value is not used
 cheat = False
 win = False
+##if userNumber < smaller or userNumber > larger:
+##    print("you cheated")
 count = 0
 guess = random.randint(smaller, larger)
 print(guess)
@@ -30,6 +31,8 @@ while count <= 10:
         break
     else:
         cheat = True
+    ##if cheat == True:
+    ##    break
 if win != True:
     if cheat == True:
         print("I'm out of guesses, and you cheated!")

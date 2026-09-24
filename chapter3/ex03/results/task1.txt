@@ -1,46 +1,34 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Outputs 'Hooray, I've got it in 1 tries!' on a correct first guess.
-Reason: Unable to find '["I've got it in 1 tries"]' in the program's output.
-Enter the smaller number: Enter the larger number: Enter your number: 6
-Enter <, >, or = I'm out of guesses, you win!
-.
-Error : AssertionError - 
-Timestamp: 2026-09-24 20:46:30.632924
+Reason: None
+Timestamp: 2026-09-24 20:48:52.258778
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Outputs 'Hooray, I've got it in 2 tries!' on a correct second guess.
-Reason: Unable to find '["I've got it in 2 tries"]' in the program's output.
-Enter the smaller number: Enter the larger number: Enter your number: 6
-Enter <, >, or = Congratulations! I've got it in 1 tries!
-.
-Error : AssertionError - 
-Timestamp: 2026-09-24 20:46:30.651319
+Reason: None
+Timestamp: 2026-09-24 20:48:52.277446
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Outputs 'Hooray, I've got it in 3 tries!' on a correct third guess.
-Reason: Unable to find '["I've got it in 3 tries"]' in the program's output.
-Enter the smaller number: Enter the larger number: Enter your number: 4
-Enter <, >, or = 4, 10
-8
-Enter <, >, or = Congratulations! I've got it in 2 tries!
-.
-Error : AssertionError - 
-Timestamp: 2026-09-24 20:46:30.675072
+Reason: None
+Timestamp: 2026-09-24 20:48:52.295734
 
 Status: FAILED!
 Check: 4
 Test: Outputs 'I'm out of guesses, and you cheated!' when you cheat.
 Reason: Unable to find '['you cheated']' in the program's output.
-Enter the smaller number: Enter the larger number: Enter your number: 5
-Enter <, >, or = 1, 5
-3
-Enter <, >, or = 1, 3
-1
+Enter the smaller number: Enter the larger number: 7
+Enter <, >, or = 1, 7
+7
+Enter <, >, or = 1, 7
+6
+Enter <, >, or = 1, 6
+6
 Enter <, >, or = I'm out of guesses, you win!
 .
 Error : AssertionError - 
-Timestamp: 2026-09-24 20:46:30.705458
+Timestamp: 2026-09-24 20:48:52.313544
