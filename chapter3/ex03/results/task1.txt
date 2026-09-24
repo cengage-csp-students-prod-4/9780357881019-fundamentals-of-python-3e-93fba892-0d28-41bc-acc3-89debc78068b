@@ -3,32 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Outputs 'Hooray, I've got it in 1 tries!' on a correct first guess.
 Reason: None
-Timestamp: 2026-09-24 20:48:52.258778
+Timestamp: 2026-09-24 20:50:05.264729
 
 Status: PASSED!
 Check: 2
 Test: Outputs 'Hooray, I've got it in 2 tries!' on a correct second guess.
 Reason: None
-Timestamp: 2026-09-24 20:48:52.277446
+Timestamp: 2026-09-24 20:50:05.280634
 
 Status: PASSED!
 Check: 3
 Test: Outputs 'Hooray, I've got it in 3 tries!' on a correct third guess.
 Reason: None
-Timestamp: 2026-09-24 20:48:52.295734
+Timestamp: 2026-09-24 20:50:05.296624
 
 Status: FAILED!
-Check: 4
-Test: Outputs 'I'm out of guesses, and you cheated!' when you cheat.
-Reason: Unable to find '['you cheated']' in the program's output.
-Enter the smaller number: Enter the larger number: 7
-Enter <, >, or = 1, 7
-7
-Enter <, >, or = 1, 7
-6
-Enter <, >, or = 1, 6
-6
-Enter <, >, or = I'm out of guesses, you win!
-.
-Error : AssertionError - 
-Timestamp: 2026-09-24 20:48:52.313544
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 10, in <module>
+    userNumber = input("Enter <, >, or = ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-09-24 20:50:05.344963
+
+Status: FAILED!
+Reason: Unable to run guess.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 10, in <module>
+    userNumber = input("Enter <, >, or = ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-09-24 20:50:05.345035
