@@ -1,7 +1,7 @@
-count = 1
+count = 0
 total = 0
 while count < 10:
-    score = int(input("Enter test score number " + str(count) + ": "))
+    score = int(input("Enter test score number " + str(count+1) + ": "))
     total = total + score
     count = count + 1
 average = total / count
