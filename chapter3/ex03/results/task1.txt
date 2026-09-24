@@ -3,34 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Outputs 'Hooray, I've got it in 1 tries!' on a correct first guess.
 Reason: None
-Timestamp: 2026-09-24 20:50:05.264729
+Timestamp: 2026-09-24 20:52:25.902626
 
 Status: PASSED!
 Check: 2
 Test: Outputs 'Hooray, I've got it in 2 tries!' on a correct second guess.
 Reason: None
-Timestamp: 2026-09-24 20:50:05.280634
+Timestamp: 2026-09-24 20:52:25.929510
 
 Status: PASSED!
 Check: 3
 Test: Outputs 'Hooray, I've got it in 3 tries!' on a correct third guess.
 Reason: None
-Timestamp: 2026-09-24 20:50:05.296624
+Timestamp: 2026-09-24 20:52:25.957632
 
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 10, in <module>
-    userNumber = input("Enter <, >, or = ")
-EOFError: EOF when reading a line
-
-Timestamp: 2026-09-24 20:50:05.344963
-
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 10, in <module>
-    userNumber = input("Enter <, >, or = ")
-EOFError: EOF when reading a line
-
-Timestamp: 2026-09-24 20:50:05.345035
+Status: PASSED!
+Check: 4
+Test: Outputs 'I'm out of guesses, and you cheated!' when you cheat.
+Reason: None
+Timestamp: 2026-09-24 20:52:25.974061

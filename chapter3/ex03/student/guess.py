@@ -1,31 +1,30 @@
+import math
+
 smaller = int(input("Enter the smaller number: "))
 larger = int(input("Enter the larger number: "))
-cheat = False
-win = False
+
+# Minimum number of guesses needed for a range of this size
+maxGuesses = int(math.log(larger - smaller + 1, 2)) + 1
+
 count = 0
-guess = (smaller + larger) // 2
-print(guess)
-while count <= 10:
+win = False
+while count < maxGuesses:
+    guess = (smaller + larger) // 2
+    print(guess)
     count += 1
     userNumber = input("Enter <, >, or = ")
-    if userNumber == "<":
-        larger = guess - 1
-        print(str(smaller)+", "+str(larger))
-        guess = (smaller + larger) // 2
-        print(guess)
-    elif userNumber == ">":
-        smaller = guess + 1
-        print(str(smaller)+", "+str(larger))
-        guess = (smaller + larger) // 2
-        print(guess)
-    elif userNumber == "=":
+    if userNumber == "=":
         print("Congratulations! I've got it in", count, "tries!")
         win = True
         break
+    elif userNumber == "<":
+        larger = guess - 1
+    elif userNumber == ">":
+        smaller = guess + 1
     else:
-        cheat = True
-if win != True:
-    if cheat == True:
-        print("I'm out of guesses, and you cheated!")
-    else:
-        print("I'm out of guesses, you win!")
+        break  # invalid hint
+    if smaller > larger:
+        break  # no numbers left: the hints contradict each other
+
+if not win:
+    print("I'm out of guesses, and you cheated!")
