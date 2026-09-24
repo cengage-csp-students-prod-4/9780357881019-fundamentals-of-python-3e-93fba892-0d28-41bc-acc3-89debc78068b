@@ -2,7 +2,6 @@ import random
 
 smaller = int(input("Enter the smaller number: "))
 larger = int(input("Enter the larger number: "))
-userNumberANS = int(input("Enter yout number: "))
 cheat = False
 win = False
 ##if userNumber < smaller or userNumber > larger:
@@ -23,17 +22,11 @@ while count <= 10:
         print(str(smaller)+", "+str(larger))
         guess = random.randint(smaller, larger)
         print(guess)
-    elif userNumberANS == guess and userNumber == "=":
+    elif userNumber == "=":
         print("Congratulations! I've got it in", count, "tries!")
         win = True
         break
     else:
-        cheat = True
-    if guess == userNumberANS:
-        cheat = True
-    elif userNumberANS < smaller:
-        cheat = True
-    elif userNumberANS > larger:
         cheat = True
     ##if cheat == True:
     ##    break

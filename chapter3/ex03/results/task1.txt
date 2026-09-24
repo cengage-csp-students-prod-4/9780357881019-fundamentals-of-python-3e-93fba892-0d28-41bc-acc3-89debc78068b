@@ -1,72 +1,36 @@
 
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '='
+Status: PASSED!
+Check: 1
+Test: Outputs 'Hooray, I've got it in 1 tries!' on a correct first guess.
+Reason: None
+Timestamp: 2026-09-24 20:42:10.371109
 
-Timestamp: 2026-09-22 23:55:05.595649
+Status: PASSED!
+Check: 2
+Test: Outputs 'Hooray, I've got it in 2 tries!' on a correct second guess.
+Reason: None
+Timestamp: 2026-09-24 20:42:10.389920
 
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '='
-
-Timestamp: 2026-09-22 23:55:05.595751
-
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
-
-Timestamp: 2026-09-22 23:55:05.644844
+Status: PASSED!
+Check: 3
+Test: Outputs 'Hooray, I've got it in 3 tries!' on a correct third guess.
+Reason: None
+Timestamp: 2026-09-24 20:42:10.407759
 
 Status: FAILED!
 Reason: Unable to run guess.py
 Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 14, in <module>
+    userNumber = input("Enter <, >, or = ")
+EOFError: EOF when reading a line
 
-Timestamp: 2026-09-22 23:55:05.644940
-
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
-
-Timestamp: 2026-09-22 23:55:05.699924
+Timestamp: 2026-09-24 20:42:10.465955
 
 Status: FAILED!
 Reason: Unable to run guess.py
 Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
+  File "/tmp/test/python/chapter3/ex03/guess.py", line 14, in <module>
+    userNumber = input("Enter <, >, or = ")
+EOFError: EOF when reading a line
 
-Timestamp: 2026-09-22 23:55:05.700019
-
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
-
-Timestamp: 2026-09-22 23:55:05.753268
-
-Status: FAILED!
-Reason: Unable to run guess.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter3/ex03/guess.py", line 5, in <module>
-    userNumberANS = int(input("Enter yout number: "))
-ValueError: invalid literal for int() with base 10: '<'
-
-Timestamp: 2026-09-22 23:55:05.753387
+Timestamp: 2026-09-24 20:42:10.466061
