@@ -9,7 +9,7 @@ Year   Salary
 1       20.00
 2       20.40
 3       20.81
-4       21.22
+4       21.23
 5       21.65
 6       22.08
 7       22.52
@@ -18,10 +18,10 @@ Year   Salary
 10      23.90
 .
 Error : AssertionError - 
-Timestamp: 2026-09-23 15:58:32.090255
+Timestamp: 2026-09-25 00:23:52.150085
 
 Status: PASSED!
 Check: 2
 Test: Program outputs correct values when user inputs 44, 5, and 4
 Reason: correct values were found in the program's output.None
-Timestamp: 2026-09-23 15:58:32.105588
+Timestamp: 2026-09-25 00:23:52.166157
