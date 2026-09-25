@@ -1,7 +1,10 @@
-x = int(input("Enter the starting salary: "))
-y = int(input("Enter the annual percent increase: "))
-z = int(input("Enter the number of years: "))
-print("\nYear   Salary\n----------------")
-for i in range(1, z+1):
-    print(format(i, "<7d") + format(x, "6.2f"))
-    x = round(x * (1 + y/100), 2)
+salary = int(input("Enter the starting salary: "))
+percent = int(input("Enter the annual percent increase: "))
+years = int(input("Enter the number of years: "))
+
+print("\nYear   Salary")
+print("----------------")
+
+for year in range(1, years + 1):
+    print(f"{year:<7}{salary:.2f}")
+    salary = salary * (1 + percent / 100)
