@@ -1,15 +1,12 @@
-text = input("Enter the text: ")
+text = input("Enter the encrypted text: ")
 distance = int(input("Enter the distance value: "))
-direction = input("Shift backward (decrypt) or forward (encrypt)? Enter b or f: ").lower()
 
-if direction == "f":
-    distance = -distance  # flip so the formula below shifts forward
-
-result = ""
+plaintext = ""
 for ch in text:
     code = ord(ch)
     if 32 <= code <= 126:
+        # shift back by distance, wrapping within the 95 printable characters
         code = (code - 32 - distance) % 95 + 32
-    result += chr(code)
+    plaintext += chr(code)
 
-print(result)
+print(plaintext)

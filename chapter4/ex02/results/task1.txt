@@ -1,40 +1,12 @@
 
-Status: FAILED!
-Reason: Unable to run decrypt.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter4/ex02/decrypt.py", line 3, in <module>
-    direction = input("Shift backward (decrypt) or forward (encrypt)? Enter b or f: ").lower()
-                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-EOFError: EOF when reading a line
+Status: PASSED!
+Check: 1
+Test: Program outputs correct values when user inputs encrypted text and distance of 2
+Reason: 'abcdef' was found in the program's output.None
+Timestamp: 2026-09-29 17:25:28.578031
 
-Timestamp: 2026-09-29 17:25:10.633232
-
-Status: FAILED!
-Reason: Unable to run decrypt.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter4/ex02/decrypt.py", line 3, in <module>
-    direction = input("Shift backward (decrypt) or forward (encrypt)? Enter b or f: ").lower()
-                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-EOFError: EOF when reading a line
-
-Timestamp: 2026-09-29 17:25:10.633322
-
-Status: FAILED!
-Reason: Unable to run decrypt.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter4/ex02/decrypt.py", line 3, in <module>
-    direction = input("Shift backward (decrypt) or forward (encrypt)? Enter b or f: ").lower()
-                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-EOFError: EOF when reading a line
-
-Timestamp: 2026-09-29 17:25:10.680047
-
-Status: FAILED!
-Reason: Unable to run decrypt.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter4/ex02/decrypt.py", line 3, in <module>
-    direction = input("Shift backward (decrypt) or forward (encrypt)? Enter b or f: ").lower()
-                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-EOFError: EOF when reading a line
-
-Timestamp: 2026-09-29 17:25:10.680132
+Status: PASSED!
+Check: 2
+Test: Program outputs correct values when user inputs encrypted text and distance of 5
+Reason: 'Encrypted text.' was found in the program's output.None
+Timestamp: 2026-09-29 17:25:28.593706
