@@ -1,5 +1,5 @@
 text = input("Enter the encrypted text: ")
-distance = int(input("Enter the distance value: "))
+distance = int(input("Enter the distance value (positive shifts backward, negative shifts forward): "))
 
 plaintext = ""
 for ch in text:
