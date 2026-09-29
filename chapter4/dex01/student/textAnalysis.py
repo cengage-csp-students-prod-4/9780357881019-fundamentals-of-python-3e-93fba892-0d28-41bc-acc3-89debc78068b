@@ -22,8 +22,16 @@ words = len(text.split())
 syllables = 0
 vowels = "aeiouAEIOU"
 for word in text.split():
-    for vowel in vowels:
-        syllables += word.count(vowel)
+    # Count each group of consecutive vowels as one syllable
+    previousWasVowel = False
+    for char in word:
+        if char in vowels:
+            if not previousWasVowel:
+                syllables += 1
+            previousWasVowel = True
+        else:
+            previousWasVowel = False
+    # Adjust for silent endings
     for ending in ['es', 'ed', 'e']:
         if word.endswith(ending):
             syllables -= 1
