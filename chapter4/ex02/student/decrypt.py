@@ -1,4 +1,6 @@
-"""Decrypt text encrypted with a Caesar-style shift cipher.
+"""decrypt.py
+
+Decrypt text encrypted with a Caesar-style shift cipher.
 
 The cipher operates on the 95 printable ASCII characters (codes 32 through
 126, from space to tilde). Each character is shifted by a fixed distance,
