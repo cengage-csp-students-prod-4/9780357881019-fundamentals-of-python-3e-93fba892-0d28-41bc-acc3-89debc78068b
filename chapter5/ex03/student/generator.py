@@ -9,13 +9,12 @@ The vocabulary is read from text files at startup.
 import random
 
 def getWords(filename):
-    """Reads words from the given file (one per line)
-    and returns them as a tuple."""
+    """Reads words from the given file and returns them
+    as a tuple."""
     words = []
     with open(filename, "r") as f:
         for line in f:
-            word = line.strip()
-            if word:                 # skip blank lines
+            for word in line.split():   # handles one-per-line or space-separated
                 words.append(word)
     return tuple(words)
 
