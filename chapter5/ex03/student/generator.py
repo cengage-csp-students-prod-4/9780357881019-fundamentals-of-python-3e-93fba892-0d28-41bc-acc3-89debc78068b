@@ -3,17 +3,27 @@ Program: generator.py
 Author: Ken
 Generates and displays sentences using a simple grammar
 and vocabulary.  Words are chosen at random.
+The vocabulary is read from text files at startup.
 """
 
 import random
 
-articles = ("A", "THE")
+def getWords(filename):
+    """Reads words from the given file (one per line)
+    and returns them as a tuple."""
+    words = []
+    with open(filename, "r") as f:
+        for line in f:
+            word = line.strip()
+            if word:                 # skip blank lines
+                words.append(word)
+    return tuple(words)
 
-nouns = ("BOY", "GIRL", "BAT", "BALL")
-
-verbs = ("HIT", "SAW", "LIKED")
-
-prepositions = ("WITH", "BY")
+# Initialize the vocabulary from the input files
+articles = getWords("articles.txt")
+nouns = getWords("nouns.txt")
+verbs = getWords("verbs.txt")
+prepositions = getWords("prepositions.txt")
 
 def sentence():
     """Builds and returns a sentence."""
