@@ -1,3 +1,4 @@
 listOfWords = ["Apple", "orange", "banana"]
-listOfWords = [word.upper() for word in listOfWords]
+for i in range(len(listOfWords)):
+    listOfWords[i] = listOfWords[i].upper()
 print(listOfWords)
