@@ -46,4 +46,24 @@ def performCommand(number, menu):
 
 def main(menu):
     """
-    Runs the interpreter loop for
+    Runs the interpreter loop for the given menu.
+    The last item in the menu must be "Quit".
+    """
+    while True:
+        printMenu(menu)
+        number = acceptCommand(len(menu))
+        performCommand(number, menu)
+        if menu[number - 1] == "Quit":
+            print("Goodbye!")
+            break
+
+
+if __name__ == "__main__":
+    # Required test menu
+    fileMenu = ["Open", "Save", "Compile", "Run", "Quit"]
+
+    # Second test menu (Quit is still last). To try it, change the
+    # call below to main(musicMenu).
+    musicMenu = ["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"]
+
+    main(fileMenu)

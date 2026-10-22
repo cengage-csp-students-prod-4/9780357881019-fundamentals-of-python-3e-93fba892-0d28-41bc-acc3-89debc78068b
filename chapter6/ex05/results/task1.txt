@@ -1,54 +1,64 @@
 
-Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
-
-Timestamp: 2026-10-22 19:48:28.429262
+Status: PASSED!
+Check: 1
+Test: The `commandinterpreter` program displays a menu of commands.
+Reason: None
+Timestamp: 2026-10-22 19:49:28.376418
 
 Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
+Check: 2
+Test: The `commandinterpreter` program displays the selection for 2.
+Reason: Unable to find '['Command = Save']' in the program's output.
 
-Timestamp: 2026-10-22 19:48:28.429397
+Menu:
+1. Open
+2. Save
+3. Compile
+4. Run
+5. Quit
+Enter a command number (1-5): You selected: Save
 
-Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
-
-Timestamp: 2026-10-22 19:48:28.479314
-
-Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
-
-Timestamp: 2026-10-22 19:48:28.479431
+Menu:
+1. Open
+2. Save
+3. Compile
+4. Run
+5. Quit
+Enter a command number (1-5): You selected: Quit
+Goodbye!
+.
+Error : AssertionError - 
+Timestamp: 2026-10-22 19:49:28.393475
 
 Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
+Check: 3
+Test: The `commandinterpreter` program displays the selection for 3 and 4.
+Reason: Unable to find '['Command = Compile and Command = Run']' in the program's output.
 
-Timestamp: 2026-10-22 19:48:28.545947
+Menu:
+1. Open
+2. Save
+3. Compile
+4. Run
+5. Quit
+Enter a command number (1-5): You selected: Compile
 
-Status: FAILED!
-Reason: Unable to run commandinterpreter.py
-Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
-    """
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 49)
+Menu:
+1. Open
+2. Save
+3. Compile
+4. Run
+5. Quit
+Enter a command number (1-5): You selected: Run
 
-Timestamp: 2026-10-22 19:48:28.546035
+Menu:
+1. Open
+2. Save
+3. Compile
+4. Run
+5. Quit
+Enter a command number (1-5): You selected: Quit
+Goodbye!
+.
+Error : AssertionError - 
+Timestamp: 2026-10-22 19:49:28.409962
