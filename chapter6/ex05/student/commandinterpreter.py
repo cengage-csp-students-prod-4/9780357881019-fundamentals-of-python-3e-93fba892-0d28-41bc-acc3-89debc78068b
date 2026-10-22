@@ -41,7 +41,7 @@ def acceptCommand(length):
 
 def performCommand(number, menu):
     """Displays the command in the menu that corresponds to the number."""
-    print("You selected: " + menu[number - 1])
+    print("Command = " + menu[number - 1])
 
 
 def main(menu):
