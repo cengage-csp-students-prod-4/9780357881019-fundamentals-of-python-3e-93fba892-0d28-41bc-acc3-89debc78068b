@@ -1,84 +1,54 @@
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.744370
+Timestamp: 2026-10-22 19:48:28.429262
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.744469
+Timestamp: 2026-10-22 19:48:28.429397
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.791999
+Timestamp: 2026-10-22 19:48:28.479314
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.792087
+Timestamp: 2026-10-22 19:48:28.479431
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.839798
+Timestamp: 2026-10-22 19:48:28.545947
 
 Status: FAILED!
 Reason: Unable to run commandinterpreter.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
-    number = acceptCommand(len(menu))
-  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
-    response = input("Enter a command number (1-" + str(length) + "): ")
-EOFError: EOF when reading a line
+Error:   File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 48
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 49)
 
-Timestamp: 2026-10-22 19:45:17.839881
+Timestamp: 2026-10-22 19:48:28.546035

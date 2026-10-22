@@ -21,7 +21,12 @@ def acceptCommand(length):
     returns the number once it is valid.
     """
     while True:
-        response = input("Enter a command number (1-" + str(length) + "): ")
+        try:
+            response = input("Enter a command number (1-" + str(length) + "): ")
+        except EOFError:
+            print()
+            return length  # no more input: fall back to Quit (last item)
+
         try:
             number = int(response)
         except ValueError:
@@ -41,23 +46,4 @@ def performCommand(number, menu):
 
 def main(menu):
     """
-    Runs the interpreter loop for the given menu.
-    The last item in the menu must be "Quit".
-    """
-    while True:
-        printMenu(menu)
-        number = acceptCommand(len(menu))
-        performCommand(number, menu)
-        if menu[number - 1] == "Quit":
-            print("Goodbye!")
-            break
-
-
-if __name__ == "__main__":
-    # Test 1: the required menu
-    print("=== Test 1: File menu ===")
-    main(["Open", "Save", "Compile", "Run", "Quit"])
-
-    # Test 2: a different menu (Quit is still last)
-    print("\n=== Test 2: Music player menu ===")
-    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    Runs the interpreter loop for
