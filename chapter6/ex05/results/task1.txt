@@ -1,0 +1,84 @@
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.744370
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.744469
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.791999
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.792087
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.839798
+
+Status: FAILED!
+Reason: Unable to run commandinterpreter.py
+Error: Traceback (most recent call last):
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 63, in <module>
+    main(["Play", "Pause", "Next Track", "Previous Track", "Shuffle", "Quit"])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 49, in main
+    number = acceptCommand(len(menu))
+  File "/tmp/test/python/chapter6/ex05/commandinterpreter.py", line 24, in acceptCommand
+    response = input("Enter a command number (1-" + str(length) + "): ")
+EOFError: EOF when reading a line
+
+Timestamp: 2026-10-22 19:45:17.839881
