@@ -7,7 +7,7 @@ to every name in a directory.
 import os
 
 
-def view_files(pathname):
+def displayFiles(pathname):
     if os.path.isfile(pathname):
         print("File name:", pathname)
         with open(pathname, "r") as f:
@@ -18,7 +18,7 @@ def view_files(pathname):
         # Files first, then subdirectories (each group alphabetical)
         names.sort(key=lambda n: (os.path.isdir(os.path.join(pathname, n)), n))
         for name in names:
-            view_files(os.path.join(pathname, name))
+            displayFiles(os.path.join(pathname, name))
     else:
         print("Not a valid file or directory:", pathname)
 
@@ -34,7 +34,7 @@ def main():
     with open(os.path.join(assets, "text.txt"), "w") as f:
         f.write("The boy kicked the red ball.")
 
-    view_files(base)
+    displayFiles(base)
 
 
 if __name__ == "__main__":
