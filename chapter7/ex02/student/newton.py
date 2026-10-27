@@ -1,5 +1,6 @@
 """
-File: newton.py
+newton.py
+
 Approximates the square root of a number using Newton's method,
 decomposed into three cooperating functions.
 """
