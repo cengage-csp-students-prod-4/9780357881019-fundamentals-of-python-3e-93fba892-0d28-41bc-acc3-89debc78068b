@@ -11,8 +11,13 @@ class Chessboard(EasyFrame):
         """Sets up the window and the panels."""
         EasyFrame.__init__(self, title = "Chess",
                            width = 200, height = 200)
-        color = "white"
+        color = "black"
         for row in range(8):
+            # Flip once at the start of each row to offset the pattern
+            if color == "black":
+                color = "white"
+            else:
+                color = "black"
             for column in range(8):
                 if color == "black":
                     color = "white"
