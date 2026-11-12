@@ -1,11 +1,13 @@
-"""A simple GUI text editor built with tkinter.
+"""
+File:  texteditor.py
+
+A simple GUI text editor built with tkinter.
 
 The program lets the user open, edit, and save plain text files. It has:
   * a labeled entry field for the filename
   * a multiline text widget with a vertical scrollbar
   * Open, Save, and New command buttons
 
-Run with:  python texteditor.py
 """
 
 import tkinter as tk
