@@ -35,8 +35,42 @@ class Student(object):
         """Returns the highest score."""
         return max(self.scores)
 
+    def __eq__(self, other):
+        """Tests for equality by comparing names."""
+        return self.name == other.name
+
+    def __lt__(self, other):
+        """Tests for less than by comparing names."""
+        return self.name < other.name
+
+    def __ge__(self, other):
+        """Tests for greater than or equal to by comparing names."""
+        return self.name >= other.name
+
     def __str__(self):
         """Returns the string representation of the
         student."""
         return "Name: " + self.name + "\nScores: " + \
                ", ".join(map(str, self.scores))
+
+
+def main():
+    """Tests the comparison operators."""
+    s1 = Student("Ken", 5)
+    s2 = Student("Ann", 5)
+    s3 = Student("Ken", 5)
+
+    print("False:", s1 == s2)
+    print("True:", s1 == s3)
+    print("True:", s1 != s2)
+    print("False:", s1 < s2)
+    print("True:", s2 < s1)
+    print("True:", s1 >= s2)
+    print("True:", s1 >= s3)
+    print("True:", s1 > s2)
+    print("True:", s1 <= s3)
+    print("True:", s2 <= s1)
+
+
+if __name__ == "__main__":
+    main()
