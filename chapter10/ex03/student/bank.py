@@ -13,10 +13,6 @@ class Bank:
     with the bank, to allow transfer of accounts to and
     from permanent file storage."""
 
-    # The state of the bank is a dictionary of accounts and
-    # a file name.  If the file name is None, a file name
-    # for the bank has not yet been established.
-
     def __init__(self, fileName = None):
         """Creates a new dictionary to hold the accounts.
         If a file name is provided, loads the accounts from
@@ -34,8 +30,9 @@ class Bank:
                     break
 
     def __str__(self):
-        """Returns the string representation of the bank."""
-        return "\n".join(map(str, self.accounts.values()))
+        """Returns the string representation of the bank,
+        with accounts sorted in ascending order by name."""
+        return "\n".join(map(str, sorted(self.accounts.values())))
 
     def makeKey(self, name, pin):
         """Returns a key for the account."""
@@ -64,14 +61,13 @@ class Bank:
         """Computes and returns the interest on
         all accounts."""
         total = 0
-        for account in self._accounts.values():
+        for account in self.accounts.values():
             total += account.computeInterest()
         return total
 
     def getKeys(self):
         """Returns a sorted list of keys."""
-        # Exercise
-        return []
+        return sorted(self.accounts.keys())
 
     def save(self, fileName = None):
         """Saves pickled accounts to a file.  The parameter
