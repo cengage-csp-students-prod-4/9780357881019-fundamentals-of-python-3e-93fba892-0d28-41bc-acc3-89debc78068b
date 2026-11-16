@@ -16,7 +16,7 @@ class Student(object):
     def getName(self):
         """Returns the student's name."""
         return self.name
-  
+
     def setScore(self, i, score):
         """Resets the ith score, counting from 1."""
         self.scores[i - 1] = score
@@ -24,24 +24,26 @@ class Student(object):
     def getScore(self, i):
         """Returns the ith score, counting from 1."""
         return self.scores[i - 1]
-   
+
     def getAverageScore(self):
-        """Returns the average score."""
+        """Returns the average score, or 0 if there are no scores."""
+        if len(self.scores) == 0:
+            return 0
         return sum(self.scores) / len(self.scores)
-    
+
     def getHighScore(self):
         """Returns the highest score."""
         return max(self.scores)
- 
+
     def __str__(self):
         """Returns the string representation of the student."""
-        return "Name: " + self.name  + "\nScores: " + \
+        return "Name: " + self.name + "\nScores: " + \
                " ".join(map(str, self.scores))
 
 def main():
     s = Student("Jack", 0)
     print(s)
-    s.getAverageScore()
+    print(s.getAverageScore())
 
 if __name__ == "__main__":
     main()
